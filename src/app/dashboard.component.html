@@ -1,0 +1,9 @@
+<div class="view">
+<ul class="champions">
+    <a *ngFor="let champion of champions" [routerLink]="['/detail', champion.id]">
+        <li>
+            <span class="badge">{{champion.id}} </span>{{champion.name}}
+        </li>
+    </a>
+</ul>
+</div>

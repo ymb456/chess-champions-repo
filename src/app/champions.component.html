@@ -1,0 +1,14 @@
+<div class="view">
+<ul class="champions" style="display: inline-block;">
+    <li [class.selected]="champion === selectedchampion" *ngFor="let champion of champions" (click)="onSelect(champion) ">
+        <span class="badge">{{champion.id}} </span>{{champion.name}}
+    </li>
+</ul>
+<div *ngIf="selectedchampion" style="display: inline-block; vertical-align: top; margin: 2em">
+    <h2>
+	    {{selectedchampion.name | uppercase}} is my champion
+	  </h2>
+    <button (click)="gotoDetail()">View Details</button>
+</div>
+
+</div>
