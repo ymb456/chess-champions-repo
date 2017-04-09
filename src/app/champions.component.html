@@ -4,11 +4,21 @@
         <span class="badge">{{champion.id}} </span>{{champion.name}}
     </li>
 </ul>
-<div *ngIf="selectedchampion" style="vertical-align: top; margin: 2em">
-    <h2>
-	    {{selectedchampion.name | uppercase}} is my champion
+<div *ngIf="selectedchampion" style="vertical-align: top; padding: 2em ;margin-left: 25em;">
+    <h2 style="text-align: center">
+	    {{selectedchampion.name | uppercase}} 
 	  </h2>
-    <button (click)="gotoDetail()">View Details</button>
+    <button style="margin: auto" (click)="gotoDetail()">View Details</button>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Jos%C3%A9_Ra%C3%BAl_Capablanca_1931.jpg/440px-Jos%C3%A9_Ra%C3%BAl_Capablanca_1931.jpg" style="width:20%;height:20%;float: right">
+    <p>
+Full name	José Raúl Capablanca y Graupera
+Country	Cuba
+Born	19 November 1888
+Havana, Captaincy General of Cuba, Spanish Empire
+Died	8 March 1942 (aged 53)
+New York City, New York, U.S.
+World Champion	1921–27    
+    </p>
 </div>
 
 </div>
