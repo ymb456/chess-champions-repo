@@ -34,8 +34,8 @@ export const champions: champion[] = [
 	},
 	{
 		id: 17, name: 'Vasily Smyslov (1957-1958)',
-		img: 'Full name	Vasily Vasilyevich (Vasilievich) Smyslov Country	Soviet Union Born	24 March 1921 Moscow, Russian Soviet Federative Socialist Republic, Soviet Union Died	27 March 2010 (aged 89) Moscow, Russia Title	Grandmaster World Champion	1957–58 Peak rating	2620 (July 1971)',
-		info: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Smyslov2002.jpg/440px-Smyslov2002.jpg'
+		img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Smyslov2002.jpg/440px-Smyslov2002.jpg',
+		info: 'Full name	Vasily Vasilyevich (Vasilievich) Smyslov Country	Soviet Union Born	24 March 1921 Moscow, Russian Soviet Federative Socialist Republic, Soviet Union Died	27 March 2010 (aged 89) Moscow, Russia Title	Grandmaster World Champion	1957–58 Peak rating	2620 (July 1971)'
 	},
 	{
 		id: 18, name: 'Mikhail Tal (1960-1961)',
